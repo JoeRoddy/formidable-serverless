@@ -1,11 +1,8 @@
 {
-  "name": "formidable-serverless",
-  "version": "1.1.1",
+  "name": "formidable-serverless-2",
+  "version": "1.1.2",
   "description": "Enables use of formidable (node.js module for parsing form data, especially file uploads) in serverless environments.",
   "license": "MIT",
-  "dependencies": {
-    "formidable": "^1.2.2"
-  },
   "directories": {
     "lib": "./lib"
   },
@@ -19,19 +16,12 @@
     "cloudfunctions",
     "lambda"
   ],
-  "homepage": "https://github.com/Amit-A/formidable-serverless",
-  "author": {
-    "name": "Amit A.Kumar",
-    "email": "kumar.amit@live.ca"
-  },
+  "homepage": "https://github.com/JoeRoddy/formidable-serverless",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amit-A/formidable-serverless.git"
+    "url": "https://github.com/JoeRoddy/formidable-serverless"
   },
-  "bugs": {
-    "url": "https://github.com/Amit-A/formidable-serverless/issues"
-  },
-  "devDependencies": {
-    "eslint": "^7.17.0"
+  "dependencies": {
+    "formidable": "^2.0.1"
   }
 }
